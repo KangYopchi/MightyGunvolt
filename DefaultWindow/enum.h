@@ -1,0 +1,27 @@
+#pragma once
+
+enum OBJID
+{
+	OBJ_MAP,
+	OBJ_BULLET,
+	OBJ_PLAYER,
+	OBJ_ENEMY,
+	OBJ_HPBAR,
+	OBJ_END
+};
+
+enum SCENEID
+{
+	SCE_LOGO,
+	SCE_MENU,
+	SCE_EDIT,
+	SCE_STAGE,
+	SCE_END
+};
+
+enum TILEID
+{
+	TILE_BACK	= 0,
+	TILE_BLOCK	= 101,
+	TILE_END
+};
